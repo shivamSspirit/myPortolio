@@ -3,7 +3,7 @@ import "./bdyisluckey.css";
 
 function BirthDayIsLuckey() {
 	const [dob, setDob] = useState("");
-	const [dobSum, setDobSum] = useState();
+	const [dobSum, setDobSum] = useState(0);
 	const [luckynum, setLuckyNum] = useState(0);
 	const [toggle, setToggle] = useState(false);
 
@@ -23,8 +23,8 @@ function BirthDayIsLuckey() {
 	};
 
 	const SumofDob = () => {
-		const dob1 = dob;
-		const sumofDob = calCulateSum(dob1);
+		let dob1 = dob;
+		let sumofDob = calCulateSum(dob1);
 		console.log(`sumofDob`, sumofDob);
 	};
 
@@ -69,15 +69,11 @@ function BirthDayIsLuckey() {
 				</button>
 			</div>
 
-			{toggle === false ? (
-				<></>
-			) : (
-				<div className="result">
-					{luckynum == dobSum
-						? `${luckynum} is a luckey Number`
-						: `this number not luckey with your date`}
-				</div>
-			)}
+			<div className="result">
+				{Number(luckynum) === dobSum
+					? `${luckynum} is a luckey Number`
+					: `this number not luckey with your date`}
+			</div>
 		</div>
 	);
 }
