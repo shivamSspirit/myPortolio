@@ -5,7 +5,7 @@ function BirthDayIsLuckey() {
 	const [dob, setDob] = useState("");
 	const [dobSum, setDobSum] = useState(0);
 	const [luckynum, setLuckyNum] = useState(0);
-	const [toggle, setToggle] = useState(false);
+
 
 	const handleDobChange = (e) => {
 		const Dob = e.target.value;
@@ -19,7 +19,6 @@ function BirthDayIsLuckey() {
 
 	const handleCheckClick = () => {
 		SumofDob();
-		setToggle(true);
 	};
 
 	const SumofDob = () => {
