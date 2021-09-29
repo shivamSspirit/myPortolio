@@ -1,0 +1,56 @@
+.first-block{
+    margin-bottom: 20px;
+    }
+    
+    .second-block{
+    margin-top: 20px;
+    }
+    
+    
+    .bdy-head{
+        font-size: x-large;
+        font-weight: 500;
+        color: tomato;
+    }
+    
+    .date-label{
+        font-size: medium;
+        font-weight: 400;
+        color: tomato;
+    }
+    
+    .date-input{
+        width: 200px;
+        padding: 10px;
+        border: tomato solid;
+    
+    }
+    
+    .number-label{
+        font-size: medium;
+        font-weight: 400;
+        color:tomato;
+    }
+    
+    .num-input{
+        width: 200px;
+        padding: 10px;
+        border: tomato solid;
+    }
+    
+    .check-luck{
+        margin-top: 20px;
+        color: rgb(247, 247, 248);
+        width: auto;
+        font-size: medium;
+        background-color: tomato;
+        margin-bottom: 20px;
+        padding: 10px;
+        border: none;
+        border-radius: 5%;
+    }
+    
+    .result{
+        color: tomato;
+    }
+    
