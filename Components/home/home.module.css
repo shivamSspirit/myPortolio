@@ -1,0 +1,149 @@
+.FirstSec {
+    width: 100%;
+}
+
+.imgCont{
+    margin-top: 10px;
+}
+
+.img {
+    max-width: 80%;
+    width: 650px;
+    display: block;
+    margin: auto;
+}
+
+.TextCon{
+    margin: auto;
+    display: block;
+    text-align: center;
+    margin-top:10px;
+}
+
+.Colo {
+    color: burlywood;
+}
+
+.secondCont{
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+.upp {
+    max-width: 80%;
+    display: block;
+    margin: auto;
+    background-color: rgb(34, 33, 29);
+    padding:25px;
+    border-radius: 7px;
+}
+
+.textheadCon{
+    text-align: center;
+    font-weight: 600;
+    font-size: 21px;
+    padding-bottom: 10px;
+    color: burlywood;
+
+}
+
+.paraCon{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: burlywood;
+}
+
+.thirdCont{
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 50px; 
+}
+
+.uppp{
+    max-width: 80%;
+    display: block;
+    margin: auto;
+    background-color: transparent;
+    padding:25px;
+    border-radius: 7px;  
+}
+
+.ProjectCon{
+    text-align: center;
+    font-weight: 600;
+    font-size: 21px;
+    color: rgb(114, 83, 42);
+
+}
+
+.Projects{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(114, 83, 42);
+}
+
+.buttonCon{
+   width: 100%;
+}
+
+.button {
+    margin:auto;
+    display:block;
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: rgb(114, 83, 42);
+    color: white;
+    border: none;
+}
+
+.fourthCon{
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+.upppp{
+    max-width: 80%;
+    display: block;
+    margin: auto;
+    background-color: rgb(34, 33, 29);
+    padding:25px;
+    border-radius: 7px;
+}
+
+.BlogCon{
+    text-align: center;
+    font-weight: 600;
+    font-size: 21px;
+    padding-bottom: 0px;
+    color: burlywood;
+} 
+
+.Blogdes{
+
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: burlywood;
+
+}
+
+.buttonCont{
+    width: 100%;
+}
+
+.button1{
+    margin:auto;
+    display:block;
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: transparent;
+    color: burlywood;
+    border: solid 1px burlywood;
+  
+}

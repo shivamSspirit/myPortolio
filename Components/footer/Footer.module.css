@@ -1,0 +1,43 @@
+.MainContainer {
+  width: 100%;
+  height: max-content;
+}
+.FooterContainer {
+  background-color: rgb(34, 33, 29);
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+.footerHead {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  color: burlywood;
+}
+
+.ulContainer {
+  margin: auto;
+  margin-top: 40px;
+  width: 80%;
+  padding-bottom: 20px;
+  align-items: center;
+}
+
+.ulstyle {
+  margin:auto;
+  list-style-type: none;
+  justify-content: center;
+  display: flex;
+  padding: 0;
+}
+
+.listStyle {
+  color: burlywood;
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 20px;
+}

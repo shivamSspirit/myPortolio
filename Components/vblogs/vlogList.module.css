@@ -1,0 +1,47 @@
+.thirdCont{
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 50px; 
+    margin-bottom: 50px;
+}
+
+.uppp{
+    max-width: 80%;
+    display: block;
+    margin: auto;
+    background-color: cadetblue;
+    padding:25px;
+    border-radius: 7px;  
+}
+
+.ProjectCon{
+    text-align: center;
+    font-weight: 600;
+    font-size: 21px;
+    color: rgb(114, 83, 42);
+
+}
+
+.Projects{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(114, 83, 42);
+}
+
+.buttonCon{
+   width: 100%;
+   padding-top:20px;
+}
+
+.button {
+    margin:auto;
+    display:block;
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: rgb(114, 83, 42);
+    color: white;
+    border: none;
+}
+
