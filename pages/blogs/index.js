@@ -1,30 +1,14 @@
 import VlogList from "../../Components/vblogs/vlogList";
 
 const Dummy_Vlogs = [
-  {
-    id: "0",
-    vlogTitle: "profit-or-loss",
-    vlogDate: "December, 2020",
-    desCription:
-      "A website which helps user how much profit or loss he/she is making in percentage & absolute value.",
-    buttonLink1: "",
-  },
-  {
-    id: "1",
-    vlogTitle: "profit-or-loss",
-    vlogDate: "December, 2020",
-    desCription:
-      "A website which helps user how much profit or loss he/she is making in percentage & absolute value.",
-    buttonLink1: "",
-  },
-  {
-    id: "2",
-    vlogTitle: "profit-or-loss",
-    vlogDate: "December, 2020",
-    desCription:
-      "A website which helps user how much profit or loss he/she is making in percentage & absolute value.",
-    buttonLink1: "",
-  },
+	{
+		id: "0",
+		vlogTitle: "project-based-learning",
+		vlogDate: "septmber, 2021",
+		desCription:
+			"a simple blog application by nextjs with one blog of comparing today's learning scenario",
+		buttonLink1: "https://project-based-learning-blog.netlify.app",
+	},
 ];
 
 function index(props) {

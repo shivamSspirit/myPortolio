@@ -16,13 +16,15 @@ export function Footer() {
                 <div className={Styles.ulContainer}>
                     <ul className={Styles.ulstyle}>
                         <li className={Styles.listStyle}>
-                            <Link href="/github">github</Link>
+                            <Link href="https://github.com/shivamsoni00">github</Link>
                         </li>
                         <li className={Styles.listStyle}>
-                            <Link href="/linkedin">linkedin</Link>
+                            <Link href="https://www.linkedin.com/in/shivam-s-b37b00157">
+                                linkedin
+                            </Link>
                         </li>
                         <li className={Styles.listStyle}>
-                            <Link href="/twitter">twitter</Link>
+                            <Link href="https://twitter.com/shivam_spirit">twitter</Link>
                         </li>
                     </ul>
                 </div>

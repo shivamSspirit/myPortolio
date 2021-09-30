@@ -14,7 +14,8 @@ function projectList({
     vlogTitle,
     desCription,
     buttonLink1
-}: IProps) {
+}: IProps)
+ {
     return (
         <>
             <section className={Styles.thirdCont}>
