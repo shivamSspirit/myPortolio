@@ -8,12 +8,12 @@ function BirthDayIsLuckey() {
 
 
 	const handleDobChange = (e) => {
-		const Dob = e.target.value;
+		let Dob = e.target.value;
 		setDob(Dob);
 	};
 
 	const handleLuckeyNum = (e) => {
-		const luckeynum = e.target.value;
+		let luckeynum = e.target.value;
 		setLuckyNum(luckeynum);
 	};
 
