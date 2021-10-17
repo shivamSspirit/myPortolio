@@ -9,7 +9,7 @@ const Dummy_projects = [
 		projectDate: "august, 2021",
 		desCription:
 			"a cli application built with node js who take user query and give the answer based on that query",
-		buttonLink1: "https://replit.com/@shivamspirit/nextlevelcli#index.js",
+		buttonLink1: "https://replit.com/@shivamspirit/cliQuizFirst#index.js",
 		buttonLink2: "https://github.com/shivamsoni00/cli-apps",
 	},
 	{
@@ -18,7 +18,7 @@ const Dummy_projects = [
 		projectDate: "august, 2020",
 		desCription:
 			"another cli app built with node js with features of user QnA query",
-		buttonLink1: "https://replit.com/@shivamspirit/cliQuizFirst#index.js",
+		buttonLink1: "https://replit.com/@shivamspirit/nextlevelcli#index.js",
 		buttonLink2: "https://github.com/shivamsoni00/cli-apps",
 	},
 	{
@@ -104,34 +104,34 @@ const Dummy_projects = [
 ];
 
 function index(props) {
-  return (
-    <>
-      <div>
-        <h1 style={{ textAlign: "center" }}>
-          See my <span style={{ color: "blueviolet" }}>Code</span>
-        </h1>
-      </div>
-      {props.projects.map((project) => (
-        <div key={project.id}>
-          <ProjectList
-            projectTitle={project.projectTitle}
-            projectDate={project.projectDate}
-            desCription={project.desCription}
-            buttonLink1={project.buttonLink1}
-            buttonLink2={project.buttonLink2}
-          />
-        </div>
-      ))}
-    </>
-  );
+	return (
+		<>
+			<div>
+				<h1 style={{ textAlign: "center" }}>
+					See my <span style={{ color: "blueviolet" }}>Code</span>
+				</h1>
+			</div>
+			{props.projects.map((project) => (
+				<div key={project.id}>
+					<ProjectList
+						projectTitle={project.projectTitle}
+						projectDate={project.projectDate}
+						desCription={project.desCription}
+						buttonLink1={project.buttonLink1}
+						buttonLink2={project.buttonLink2}
+					/>
+				</div>
+			))}
+		</>
+	);
 }
 
 export async function getStaticProps() {
-  return {
-    props: {
-      projects: Dummy_projects,
-    },
-  };
+	return {
+		props: {
+			projects: Dummy_projects,
+		},
+	};
 }
 
 export default index;
