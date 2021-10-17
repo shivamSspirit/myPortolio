@@ -9,6 +9,13 @@ const Dummy_Vlogs = [
 			"a simple blog application by nextjs with one blog of comparing today's learning scenario",
 		buttonLink1: "https://project-based-learning-blog.netlify.app",
 	},
+	{
+		id: "1",
+		vlogTitle: "Promises",
+		vlogDate: "october, 2021",
+		desCription: "a simple blog with content about js promise",
+		buttonLink1: "https://project-based-learning-blog.netlify.app",
+	},
 ];
 
 function index(props) {

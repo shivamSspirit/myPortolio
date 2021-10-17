@@ -9,7 +9,7 @@ const Dummy_projects = [
 		projectDate: "august, 2021",
 		desCription:
 			"a cli application built with node js who take user query and give the answer based on that query",
-		buttonLink1: "none",
+		buttonLink1: "https://replit.com/@shivamspirit/nextlevelcli#index.js",
 		buttonLink2: "https://github.com/shivamsoni00/cli-apps",
 	},
 	{
@@ -18,7 +18,7 @@ const Dummy_projects = [
 		projectDate: "august, 2020",
 		desCription:
 			"another cli app built with node js with features of user QnA query",
-		buttonLink1: "none",
+		buttonLink1: "https://replit.com/@shivamspirit/cliQuizFirst#index.js",
 		buttonLink2: "https://github.com/shivamsoni00/cli-apps",
 	},
 	{
