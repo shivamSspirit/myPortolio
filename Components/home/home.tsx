@@ -11,7 +11,7 @@ function home() {
           <img className={Styles.img} src={"/draw.svg"} alt="" />
         </div>
         <div className={Styles.TextCon}>
-          <h1>The nextjs <span className={Styles.Colo}>Developer</span></h1>
+          <h1>The Reactjs <span className={Styles.Colo}>Developer</span></h1>
         </div>
       </section>
 

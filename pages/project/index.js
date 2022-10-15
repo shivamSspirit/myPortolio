@@ -5,101 +5,48 @@ import ProjectList from "../../Components/project/projectList";
 const Dummy_projects = [
 	{
 		id: "0",
-		projectTitle: "cli-app-1",
-		projectDate: "august, 2021",
+		projectTitle: "Ecommerce app for toys",
+		projectDate: "april, 2022",
 		desCription:
-			"a cli application built with node js who take user query and give the answer based on that query",
-		buttonLink1: "https://replit.com/@shivamspirit/cliQuizFirst#index.js",
-		buttonLink2: "https://github.com/shivamsoni00/cli-apps",
+			"PretToys is an e-commerce web app built with Html Css js React.js. Here you can buy, variety of toys of different categories and types.",
+		buttonLink1: "https://pret-toys-shivamsoni00.vercel.app",
+		buttonLink2: "https://github.com/shivamsoni00/pretToys",
 	},
 	{
 		id: "1",
-		projectTitle: "cli-app-2",
-		projectDate: "august, 2020",
+		projectTitle: "Video library app for games",
+		projectDate: "may, 2022",
 		desCription:
-			"another cli app built with node js with features of user QnA query",
-		buttonLink1: "https://replit.com/@shivamspirit/nextlevelcli#index.js",
-		buttonLink2: "https://github.com/shivamsoni00/cli-apps",
+			"Riot is a video library for leagues of legend game reviews and their theme(songs and fights) videos. Watch quality game videos for your interest at one place.",
+		buttonLink1: "https://riot-library-kxcg9r2o7-shivamsoni00.vercel.app/",
+		buttonLink2: "https://github.com/shivamsoni00/RiotLibrary",
 	},
 	{
 		id: "2",
-		projectTitle: "text-translator",
-		projectDate: "september, 2020",
+		projectTitle: "Quiz application",
+		projectDate: "may, 2022",
 		desCription:
-			"a text-translation app who take input from user and translate text in another language ",
-		buttonLink1: "https://language-translator1.netlify.app",
-		buttonLink2: "https://github.com/shivamsoni00/traslation0",
+			"QuizApp is a single-page-web-app. It consist of multiple categories from trivia category api, it consists landing page,category page,question pages rules pages and result page",
+		buttonLink1: "https://quiz-app-zeta-gray.vercel.app/",
+		buttonLink2: "https://github.com/shivamsoni00/quizApp",
 	},
 	{
 		id: "3",
-		projectTitle: "another-text-translator",
-		projectDate: "september, 2020",
+		projectTitle: "Css component library",
+		projectDate: "march, 2022",
 		desCription:
-			"a text-translation app who take input from user and translate text in another language",
-		buttonLink1: "https://language-translator0.netlify.app",
-		buttonLink2: "https://github.com/shivamsoni00/translation1",
+			"ninjaUi is a CSS component library for faster and simpler development. It follows class based approach for styling components.",
+		buttonLink1: "https://ninja-m9yg5tu9o-shivamsoni00.vercel.app",
+		buttonLink2: "https://github.com/shivamsoni00/ninjaUi",
 	},
 	{
 		id: "4",
-		projectTitle: "Tiny Trianlges",
-		projectDate: "september, 2020",
+		projectTitle: "Joy networks",
+		projectDate: "september, 2022",
 		desCription:
-			"A website which help and fun with user about basic triangle math and formulas.",
-		buttonLink1: "https://tinytriangles.netlify.app/",
-		buttonLink2: "https://github.com/shivamsoni00/About-Triangle",
-	},
-	{
-		id: "5",
-		projectTitle: "profit-or-loss",
-		projectDate: "september, 2020",
-		desCription:
-			"A website which helps user how much profit or loss he/she is making in percentage & absolute value.",
-		buttonLink1: "https://stockk-calc.netlify.app",
-		buttonLink2: "https://github.com/shivamsoni00/StockCalculator",
-	},
-	{
-		id: "6",
-		projectTitle: "Emoji Interpreter",
-		projectDate: "september, 2020",
-		desCription:
-			"A website which interpret meaning of some emoji based on their selection and on click",
-		buttonLink1: "https://interpretemoji.netlify.app",
-		buttonLink2: "https://github.com/shivamsoni00/Emoji",
-	},
-	{
-		id: "7",
-		projectTitle: "plainDrome Birthday",
-		projectDate: "september, 2020",
-		desCription:
-			"A website which take date as input from user and tell them that date are palindrome or not in nature",
-		buttonLink1: "https://bdy-plaindrome.netlify.app/",
-		buttonLink2: "https://github.com/shivamsoni00/DatePlaindrome",
-	},
-	{
-		id: "8",
-		projectTitle: "If birthdayIs Luckey",
-		projectDate: "september, 2020",
-		desCription:
-			"A website which take date as input from user and tell them that their luckey number are match with that date or not",
-		buttonLink1: "https://bdyisluckey.netlify.app",
-		buttonLink2: "https://github.com/shivamsoni00/LuckeyNumber",
-	},
-	{
-		id: "9",
-		projectTitle: "book recommendation",
-		projectDate: "september, 2020",
-		desCription:
-			"A website which recommend user to books with their choices",
-		buttonLink1: "https://boooks-recommendation.netlify.app",
-		buttonLink2: "https://github.com/shivamsoni00/bookRecommend",
-	},
-	{
-		id: "10",
-		projectTitle: "bill-calculator",
-		projectDate: "september, 2020",
-		desCription: "A website which take care about bill splitting",
-		buttonLink1: "https://bill-calc.netlify.app",
-		buttonLink2: "https://github.com/shivamsoni00/cashcalc",
+			"this is social media network for kids to use like and post each other content",
+		buttonLink1: "#joynetwork",
+		buttonLink2: "https://github.com/shivamsoni00/joynetwork",
 	},
 ];
 
