@@ -48,6 +48,15 @@ const Dummy_projects = [
 		buttonLink1: "#joynetwork",
 		buttonLink2: "https://github.com/shivamsoni00/joynetwork",
 	},
+	{
+		id: "5",
+		projectTitle: "contact app",
+		projectDate: "december, 2021",
+		desCription:
+			"this is contact application built with mern stack",
+		buttonLink1: "https://dry-shelf-17303.herokuapp.com",
+		buttonLink2: "https://github.com/shivamsoni00/phonebooky",
+	},
 ];
 
 function index(props) {
