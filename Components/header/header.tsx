@@ -7,9 +7,9 @@ export function Header() {
         <div className={Styles.MainCont}>
             <div className={Styles.navcontainer}>
                 <div className={Styles.header}>
-                    <div className={Styles.logo}>
+                    <div>
                         <Link href="/">
-                            Logo
+                           <img className={Styles.logo} src='/ss.png' alt='logo-icon'/>
                         </Link>
                     </div>
                 </div>
